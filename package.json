@@ -3,12 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.1",
+    "bootstrap": "^5.2.3",
+    "jquery-ui-dist": "^1.13.2",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.6.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-redux": "^8.0.5",
+    "react-router": "^6.4.4",
+    "react-router-dom": "^6.4.5",
+    "react-scripts": "^5.0.1",
+    "recharts": "^2.3.2",
+    "redux-devtools-extension": "^2.13.9",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4",
+    "sweetalert2": "^11.4.8",
+    "sweetalert2-react-content": "^5.0.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +44,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@reduxjs/toolkit": "^1.9.1",
+    "@stripe/react-stripe-js": "^1.16.1",
+    "@stripe/stripe-js": "^1.46.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jquery": "^3.5.14",
+    "i": "^0.3.7",
+    "jquery": "^3.6.3",
+    "npm": "^9.2.0"
   }
 }

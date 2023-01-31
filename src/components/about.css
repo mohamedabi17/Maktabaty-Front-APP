@@ -1,0 +1,35 @@
+.about{
+    height: 70vh;
+    margin-top: 100px;
+    margin-bottom: auto;
+}
+
+.about .container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.about  b{
+    text-align: center;
+    font-weight: 800;
+    margin:20%;
+
+}
+.about .container div:first-child{
+    /* padding-top:45px; */
+}
+.about .container div img{
+    width: 100%;
+    border-radius: 50% 50%;
+}
+
+.about .container div:nth-child(2){
+    padding: 30px;
+}
+.about .container div:nth-child(2) div:first-child{
+    font-weight: 700;
+    color: blue;
+}

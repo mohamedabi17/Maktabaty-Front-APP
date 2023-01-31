@@ -1,0 +1,51 @@
+.action{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+    height: 270px;
+}
+.action span .lien{
+    text-decoration: none
+}
+.container table tr th{
+    text-align:center;
+}
+.action div{
+    transform: translateX(-10px);
+    font-weight: 700;
+}
+.text{
+    text-align:center;
+}
+#text{
+    text-align:center;
+}
+/* .panel{
+    text-align:"center";
+} */
+.img{
+    width:150px;
+}
+
+#add{
+    display:block;
+    text-align: center;
+}
+#add span{
+    position: relative;
+    bottom: -7px;
+}
+
+.cont{
+    width: 90%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.byprice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
